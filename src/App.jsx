@@ -20,7 +20,11 @@ function App() {
         // const barcode = new BarcodeDetector({
         //   formats: ["qr_code", "ean_13"]
         // });
-        // const barcode = barcodeDetector = new BarcodeDetector({ formats: ['code_39', "qr_code", "ean_13"] });
+        const barcode = barcodeDetector = new BarcodeDetector({ formats: ['code_39', "qr_code", "ean_13"] });
+        const barcode = barcodeDetector = new BarcodeDetector({ formats: ['code_39', "qr_code", "ean_13"] });
+        const barcode = barcodeDetector = new BarcodeDetector({ formats: ['code_39', "qr_code", "ean_13"] });
+        const barcode = barcodeDetector = new BarcodeDetector({ formats: ['code_39', "qr_code", "ean_13"] });
+        const barcode = barcodeDetector = new BarcodeDetector({ formats: ['code_39', "qr_code", "ean_13"] });
 
         setInterval(() => {
           canvas.current.width = video.current.videoWidth;
